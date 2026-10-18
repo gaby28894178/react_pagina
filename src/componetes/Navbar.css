@@ -1,0 +1,22 @@
+nav {
+    background-color: #0563a1;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+ a{
+   
+    color: white;
+    text-decoration: none;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
