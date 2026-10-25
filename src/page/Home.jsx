@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // Falta importar Link
 import axios from 'axios';
-
+import './characters.css'
 function Home() {
   const [characters, setCharacter] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -40,7 +40,7 @@ function Home() {
       {!loading && !error && ( // Corregido: 'isloading' a 'loading'
         <div className="character-container">
           {characters.map((character) => (
-            <article key={character.id}>
+            <article  key={character.id}>
               {/* Añadido 'to' para que el Link sea válido */}
               <Link to={`/character/${character.id}`}>
                 <img src={character.image} alt={character.name} />
