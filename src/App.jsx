@@ -1,15 +1,31 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Contacto from './page/Contacto'
 
-import './App.css'
-import Navbar from './componetes/Navbar';
+
 
 function App() {
+
+
+
  
 return (
   <div>
-  <Navbar  />
+  <BrowserRouter>
+    <Navbar/>
+  <Routes>
+    <Route path="/contacto"element={<Contacto/>} />
+    <Route/>
+    <Route/>
+    <Route/>
+  </Routes>
+  
+  </BrowserRouter>
+  
 
   
+
 
   
   </div>
