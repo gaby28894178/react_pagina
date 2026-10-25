@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Contacto from './page/Contacto'
 import Acercade from './page/Acercade'
 import Home from './page/Home'
+import Footer from './components/Footer'
 
 
 
@@ -22,6 +23,7 @@ return (
     <Route/>
     <Route path="/contacto"element={<Contacto/>} />
   </Routes>
+  <Footer/>
   
   </BrowserRouter>
   
