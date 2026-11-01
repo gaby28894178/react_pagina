@@ -5,17 +5,6 @@ import './Navbar.css';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
-
-
-
-
-
-
-
-
-
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };

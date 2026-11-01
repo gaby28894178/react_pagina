@@ -4,5 +4,12 @@
     justify-content: center;
     text-align: center;
     margin-top: 20px;
-    padding: 20px;
+    padding: 2rem;
+    margin-bottom: 0px;
+
+    /* mejoro el posisionaminto fiojo abajo */
+     position: fixed;
+     bottom: 0;
+     left: 0 ;
+     width: 100%;
 }   
