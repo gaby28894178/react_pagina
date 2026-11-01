@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ContactoForm from '../components/ContactoForm';
 import Footer from '../components/Footer';
 
@@ -18,18 +18,8 @@ function Contacto() {
 
         <ContactoForm />
 
-        <div>
-          <iframe
-            src={mapSrc}
-            width="600"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
-            title={`Mapa de ${NOMBRE}`}
-          />
-        </div>
+
+
       </main>
 
       <Footer />
