@@ -13,8 +13,8 @@ function Contacto() {
   return (
     <div className="pagina-contacto-layout">
       <main className="contenido-contacto">
-        <h1>Póngase en Contacto</h1>
-        <p>Escríbenos y te responderemos lo antes posible.</p>
+        <h1>Contacto</h1>
+    
 
         <ContactoForm />
 

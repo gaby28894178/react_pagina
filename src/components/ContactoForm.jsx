@@ -9,7 +9,8 @@ const infoItems = [
   { Icono: '🕒', titulo: 'Horario', texto: 'Lunes a viernes, 9:00 – 18:00' },
 ];
 
-const ENDPOINT = 'https://formspree.io/f/mjyyawpl';
+const key =  "mpppynoo"
+const ENDPOINT =  `https://formspree.io/f/${key}`;
 
 const latitud = -37.0323467;
 const longitud = -65.3129713;
